@@ -1,0 +1,180 @@
+/*---------------------------FONTS---------------------*/
+
+@import url('http://fonts.googleapis.com/css?family=Pacifico');
+@import url('http://fonts.googleapis.com/css?family=Karla:400,400italic,700,700italic');
+@import url('http://fonts.googleapis.com/css?family=Montserrat:400,700');
+
+
+
+/*---------------------------GENERAL SYTLES---------------------*/
+
+* {
+	margin: 0;
+	
+
+}
+
+html, body {
+	height: 100%;
+	font-family: 'Karla', sans-serif;
+	overflow-x:hidden;
+
+
+}
+
+/*---------------------------BASIC SYTLES---------------------*/
+
+ul {
+	padding: 0;
+	list-style-type: none;
+	
+}
+
+a {
+	text-decoration: none;
+	color:#fff;
+
+}
+
+li {
+	padding: 5px 0;
+
+}
+
+
+
+/*---------------------------HEADER SYTLES---------------------*/
+
+header {
+	
+	width: 100%;
+	height: 150px;
+}
+
+header #title-section {
+	height: 70%;
+	background-color: #C26868;
+	font-family: 'Pacifico', cursive;
+	color: #fff;
+	font-size: 15pt;
+	text-align: center;
+
+}
+
+header h1 {
+	float: left;
+	padding: 10px 0 0 3%;
+
+}
+
+/*---------------------------NAVIGATION SYTLES---------------------*/
+
+header  #menu-button {
+	float: right;
+	margin: 30px 6% 0 0;
+}
+
+header #main-nav {
+	height: auto;
+	background-color: #ddd;
+	display: none;
+	font-family: 'Pacifico', cursive;
+	color: #fff;
+	padding: 5px 0 0 0;
+}
+
+header #main-nav ul {
+	display: flex;
+	-webkit-flex-direction: column;
+	-webkit-justify-content: space-between;
+	-webkit-align-items: center;
+}
+
+
+
+/*---------------------------BODY SYTLES---------------------*/
+
+#main-content {
+	width: 100%;
+	height: 80%;
+	margin: 0 0 40px 0;
+	
+}
+
+/*---------------------------MAP SYTLES---------------------*/
+
+ #map_canvas {
+    width: 90%;
+    height: 50%;
+	margin: auto;
+	
+}
+
+#locate {
+	background: none;
+	height: 20px;
+	width: 50px;
+}
+
+
+
+/*---------------------------BUTTON SYTLES---------------------*/
+
+.main-button {
+	font-family: 'Pacifico', cursive;
+	font-size: 1.2em;
+	color: #fff;
+	background-color: #85C285;
+	height: 40px;
+	width: 100px;
+	margin: 30px auto;
+	text-align: center;
+	border-radius: 7px;
+	position: relative;
+	
+}
+
+.main-button a {
+	position: relative;
+	top: 4px;
+
+}
+
+#send-button {
+	display: none;
+}
+
+/*---------------------------FOOTER SYTLES---------------------*/
+
+footer {
+	width:100%;
+	height: 10%;
+	background-color: #C26868;
+	color: #fff;
+	
+}
+
+footer .footer-items {
+	padding: 0;
+	height: 100%;
+	display: flex;
+	font-family: 'Karla', sans-serif;
+	font-size: 10pt;
+	-webkit-flex-direction: row;
+	-webkit-justify-content: space-between;
+	-webkit-align-items: center;
+	margin: 0 20px 0 20px;
+}
+
+footer .footer-items img {
+	width: 15px;
+	height: 15px;
+
+}
+
+
+
+
+
+	
+	
