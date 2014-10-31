@@ -1,6 +1,6 @@
 /*toggles nav if menu button is clicked and animates the menu button*/
 
-$("#title-section #menu-button").click( function() {
+$("#title-section #menu-button, #main-menu li").click( function() {
 	$("#main-nav").stop(true).delay(150).slideToggle("slow");
 	
 	$("#main-content").toggleClass( "space" )
@@ -23,7 +23,7 @@ $("#title-section #menu-button").click( function() {
 
 /*Send button only appears when Find Button is clicked*/
 
-$("#find-button").click( function() {
+$("#find-button a").click( function() {
 	$("#send-button").fadeIn(1000);
 	
 	});

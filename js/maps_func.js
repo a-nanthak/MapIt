@@ -1,6 +1,6 @@
 /*Function handling the marker*/
 
- $("#find-button").click( function() {
+ $("#find-button a").click( function() {
 	var marker = new google.maps.Marker({
       position: initlatLng,
       map: map
