@@ -24,7 +24,7 @@ $("#title-section #menu-button, #main-menu li").click( function() {
 /*Send button only appears when Find Button is clicked*/
 
 $("#find-button a").click( function() {
-	$("#send-button").fadeIn(1000);
+	$("#dest-form").fadeIn(1000);
 	
 	});
 
