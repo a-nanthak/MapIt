@@ -15,7 +15,7 @@ function initialize() {
 	mapTypeControl: false
   }
   
-  map = new google.maps.Map(document.getElementById('map_canvas'), mapOptions);
+  primMap = new google.maps.Map(document.getElementById('map_canvas'), mapOptions);
 
  }
  
