@@ -1,23 +1,10 @@
 /*Function handling the marker*/
 
-<<<<<<< HEAD
- $("#find-button").click( function() {
+$("#find-button").click( function() {
  
 	if (navigator.geolocation) {
 		var pos
 		navigator.geolocation.getCurrentPosition(function(position) {
-=======
- $("#find-button a").click( function() {
-	var marker = new google.maps.Marker({
-      position: initlatLng,
-      map: map
-	})
-	
-	var pos
-	navigator.geolocation.getCurrentPosition(function(position) {
-    pos = new google.maps.LatLng(position.coords.latitude,position.coords.longitude);
-	});
->>>>>>> c78412e8ef1a6151bbe1d427c5c3e4bef50bcd41
 		
 			var lat = position.coords.latitude;
 			var lon = position.coords.longitude;
@@ -48,6 +35,8 @@
 });
 
   
+
+
 
 
 
